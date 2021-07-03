@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -138,6 +140,7 @@ body.active{
 }
 
 .formbox .form_signin form h3{
+    font-family: 'Libre Baskerville', serif;
     font-size: 1.5em;
     color: black;
     font-weight: 600;
@@ -209,6 +212,8 @@ body.active{
     flex-direction: column;
 }
 .formbox .form_signup form h3{
+    font-family: 'Libre Baskerville', serif;
+
     font-size: 1.5em;
     color: black;
     font-weight: 600;
