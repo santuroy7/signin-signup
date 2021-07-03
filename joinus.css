@@ -1,6 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -72,6 +73,7 @@ body
     font-size: 1.2em;
     font-weight: 500;
     margin-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
 }
 .bluebg .box_signup h2{
     /* border: 1px solid black; */
@@ -79,6 +81,7 @@ body
     font-size: 1.2em;
     font-weight: 500;
     margin-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
 }
 .bluebg .box_signin button{
     cursor: pointer;
@@ -89,6 +92,7 @@ body
     font-size: 16px;
     font-weight: 500;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 .bluebg .box_signup button{
     cursor: pointer;
@@ -99,6 +103,7 @@ body
     font-size: 16px;
     font-weight: 500;
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 .formbox{
     /* border: 3px solid blue; */
@@ -170,6 +175,8 @@ body.active{
     color: black;
     max-width: 110px;
     outline: none;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-weight: 600; */
     
     
 }
