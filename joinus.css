@@ -180,6 +180,10 @@ body.active{
     
     
 }
+.formbox .form_signin form #submit:hover{
+    background:  rgb(78, 214, 230);
+    /* font-weight: 600; */
+}
 
 .formbox .form_signin form #forgot{
     text-decoration: underline;
@@ -256,6 +260,9 @@ body.active{
     
     
     
+}
+.formbox .form_signup form #register:hover{
+    background: rgb(236, 99, 94);
 }
 .formbox .form_signup{
     left: 100%;
