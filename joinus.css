@@ -94,6 +94,10 @@ body
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
 }
+.bluebg .box_signin button:hover{
+     background: rgb(241, 211, 211);
+
+}
 .bluebg .box_signup button{
     cursor: pointer;
     padding: 10px 20px;
@@ -104,6 +108,9 @@ body
     font-weight: 500;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
+}
+.bluebg .box_signup button:hover{
+    background: rgb(215, 241, 245); 
 }
 .formbox{
     /* border: 3px solid blue; */
