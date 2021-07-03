@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -156,6 +157,8 @@ body.active{
     font-weight: 500;
     border: 0.5px solid black;
     border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+
     
 }
 .formbox .form_signin form #submit{
@@ -166,7 +169,7 @@ body.active{
     background-color: rgb(11, 179, 198);
     color: black;
     max-width: 110px;
-    
+    outline: none;
     
     
 }
@@ -230,6 +233,8 @@ body.active{
     border: 0.5px solid black;
     border-radius: 3px;
     /* z-index: 99999; */
+    font-family: 'Montserrat', sans-serif;
+
     
 }
 .formbox .form_signup form #register{
@@ -240,6 +245,7 @@ body.active{
     background-color: rgb(228, 39, 32);
     color: black;
     max-width: 110px;
+    outline: none;
     
     
     
