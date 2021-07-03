@@ -94,6 +94,7 @@ body
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     outline: none;
+    /* border: none; */
 }
 .bluebg .box_signin button:hover{
      background: rgb(241, 211, 211);
@@ -110,6 +111,7 @@ body
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     outline: none;
+
 }
 .bluebg .box_signup button:hover{
     background: rgb(215, 241, 245); 
