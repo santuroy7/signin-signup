@@ -52,9 +52,7 @@
 
         </div>
     </div>
-    <!-- <div class="sounds">
-
-    </div> -->
+   <!-- adding this for audio effect -->
     <audio src="audio1.mp3" id="sound"></audio>
 
 
@@ -69,6 +67,7 @@
             formbox.classList.add('active');
             body.classList.add('active');
             santu();
+
         }
         sign_in_btn.onclick = function(){
             formbox.classList.remove('active');
@@ -79,6 +78,7 @@
 
         // this is for audio effect
         var audioeffect = document.getElementById('sound');
+        // function created
         function santu(){
             audioeffect.play();
         }
